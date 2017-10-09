@@ -6,8 +6,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.example.android_wis_141.webinstats_object;
-
 /**
  * Created by fatmaselin on 22/09/2017.
  */
@@ -20,7 +18,5 @@ public class DeepLink extends Activity {
 
         Intent appIntent = getIntent();
         Uri appLinkData = appIntent.getData();
-        webinstats_object wobj = new webinstats_object();
-        wobj.saveTestParameters(this,appLinkData);
     }
 }
