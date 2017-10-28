@@ -7,10 +7,11 @@ import android.os.Bundle;
 import java.util.HashMap;
 import java.util.Map;
 
-import webinstats.android_wis_141.Webinstats;
+import webinstats.android_wis_144.Webinstats;
+
 
 public class MainActivity extends AppCompatActivity {
-    Webinstats wiso = new Webinstats("//wisdemo.webinstats.com/","4e84-1481","0");
+    Webinstats wiso = new Webinstats("//wisdemo.webinstats.com/","1","0");
     // ( String _cburl ,String s ,String sscookie)
 
     @Override
@@ -20,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         Map<String,String> map=new HashMap<>();
         map.put("p","Home Page");
         wiso.execute(this,map,map);
-
     }
 }
