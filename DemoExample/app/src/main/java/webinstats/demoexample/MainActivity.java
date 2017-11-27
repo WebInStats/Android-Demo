@@ -11,7 +11,7 @@ import webinstats.android_wis_144.Webinstats;
 
 
 public class MainActivity extends AppCompatActivity {
-    Webinstats wiso = new Webinstats("//wisdemo.webinstats.com/","1","0");
+    Webinstats wiso = new Webinstats("//wisdemo.webinstats.com/","1481","0");
     // ( String _cburl ,String s ,String sscookie)
 
     @Override
