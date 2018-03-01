@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Map<String,String> map=new HashMap<>();
         map.put("p","Home Page");
-        wiso.execute(this,map,map);
+        wiso.execute(this,map);
     }
 }
