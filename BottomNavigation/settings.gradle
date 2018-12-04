@@ -1,1 +1,1 @@
-include ':app', ':android_wis_1.44'
+include ':app', ':android_wis'
