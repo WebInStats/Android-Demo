@@ -13,11 +13,11 @@
         <!-- 5.0 API 21+ -->
         <meta-data
             android:name="push_notification_icon"
-            android:resource="__icon_source_file__" />
+            android:resource="@drawable/ic_launcher_background" />
         <!-- before 5.0 API 21 @drawable/file_name -->
         <meta-data
             android:name="push_notification_icon_old"
-            android:resource="__icon_source_file__" />
+            android:resource="@drawable/ic_launcher_background" />
         <!-- 8.0 API 26+-->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
@@ -30,8 +30,7 @@
             </intent-filter>
         </activity>
 
-        <!-- for FCM -->
-        <!--
+
         <service
             android:name="webinstats.android_wis.WebinstatsMessagingService"
             android:exported="true"
@@ -40,9 +39,7 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
-        -->
-        <!-- for HMS -->
-        <!--
+
         <service
             android:name="webinstats.android_wis.WisHMSMessagingService"
             android:exported="false">
@@ -50,7 +47,7 @@
                 <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        -->
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

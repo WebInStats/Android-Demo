@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wispop"
+    android:background="@android:color/transparent">
+    <!--android:theme="@style/Theme_Webinstats_Black" -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/wisHiddenImg">
+    </View>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wisimageView2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wiscapTxt"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:text="Caption"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wissubTxt"
+        android:text="Sub Text"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:id="@+id/wisokBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" android:background="@drawable/wis_button_bg"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="OK"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:id="@+id/wisxBtn"
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:layout_marginStart="20dp" android:layout_alignParentStart="true" android:background="@drawable/wis_xbutton_bg"
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="×"
+        android:background="@drawable/wis_closebutton_bg"
+        android:id="@+id/wiscloseBtn"
+        />
+
+</RelativeLayout>
+
+

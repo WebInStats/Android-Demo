@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+    <string name="app_name">android_wis</string>
+    <style name="Theme_Webinstats">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="colorPrimary">#ffffff</item>
+        <item name="buttonStyle">@style/buttonStyle</item>
+        <item name="android:buttonStyle">@style/buttonStyle</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:colorBackground">#ffffff</item>
+    </style>
+    <style name="Theme_Webinstats_Black">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="colorPrimary">#000</item>
+        <item name="buttonStyle">@style/buttonStyle</item>
+        <item name="android:buttonStyle">@style/buttonStyle</item>
+        <item name="android:background">#000</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:colorBackground">#000</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:tint">#ffffff</item>
+        <item name="android:textAlignment" ns1:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textAllCaps">false</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
